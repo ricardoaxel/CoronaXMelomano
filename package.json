@@ -1,5 +1,5 @@
 {
-  "homepage": "http://ricardoaxel.github.io/CoronaXMelomano",
+  "homepage": "https://ricardoaxel.github.io/CoronaXMelomano",
   "name": "pedalvision",
   "version": "0.1.0",
   "private": true,
@@ -29,8 +29,8 @@
   },
   "scripts": {
     "start": "react-app-rewired start",
-    "predeploy": "npm run react-app-rewired build",
-    "deploy": "gh-pages -d react-app-rewired build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
     "eject": "react-app-rewired eject"
